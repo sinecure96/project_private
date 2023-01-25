@@ -1,0 +1,49 @@
+.circle_top {
+  background-color: white;
+  border-radius: 50%;
+  width:80px;
+  height:80px;
+  top: 20%;
+  left:5%;
+  position: relative;
+  text-align: center;
+  border: 3px solid blue;
+}
+
+.circle_bot {
+  background-color:white;
+  border-radius: 50%;
+  width:80px;
+  height:80px;
+  top: 95%;
+  left:95%;
+  position: relative;
+  text-align: center;
+  border: 3px solid red;
+}
+
+.h6_top {
+  position:absolute;
+  font-size: 50px;
+  text-align: center;
+  top:30%;
+  left: 25%;
+
+}
+
+.h6_bot {
+  position:absolute;
+  font-size: 50px;
+  text-align: center;
+  top:70%;
+  left: 75%;
+}
+
+.diagonal {
+  width:300px;
+  height: 5px;
+  background-color: peru;
+  transform: rotate(-33deg);
+  /* top:20%;
+  left:20%; */
+}

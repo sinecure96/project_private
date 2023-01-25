@@ -1,0 +1,23 @@
+.MemoContainer {
+
+  width: 450px;
+  height: 300px;
+  top: 466px;
+  left: 162px;
+  border-radius: 25px;
+  background-color: white;
+  border: 3px solid black;
+  margin: 100px;
+  position:relative;
+  top:20px;
+  left: 20px;
+  text-align: center;
+}
+
+.EditIcon {
+  position:absolute;
+  top: 8px;
+  right: 0px;
+  font-size: 30px;
+
+}
