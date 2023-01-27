@@ -16,20 +16,20 @@ const StudyTimeChart = () => {
 
     return (
         // chart height이 100%이기 때문이 chart를 덮는 마크업 요소에 height 설정
-        <div style={{ width: '800px', height: '300px', margin: '0 auto' }}>
+        <div style={{ width: '800px', height: '170px', margin: '0 auto' }}>
             <ResponsiveBar
                 /**
                  * chart에 사용될 데이터
                  */
                 data={[
-                    { 시간:'시간', react_study: 8, algorithm_study: 7, FE: 5 },
+                    { 시간:'시간', react_study: 8, algorithm: 7, FE: 5 },
                     // { bottle: '500ml', cola: 2200, cidar: 2000, fanta: 2100 },
                     // { bottle: '1000ml', cola: 3200, cidar: 3000, fanta: 3100 },
                 ]}
                 /**
                  * chart에 보여질 데이터 key (측정되는 값)
                  */
-                keys={['react_study', 'algorithm_study', 'FE']}
+                keys={['react_study', 'algorithm', 'FE']}
                 /**
                  * keys들을 그룹화하는 index key (분류하는 값)
                  */
@@ -112,7 +112,7 @@ const StudyTimeChart = () => {
                     tickSize: 5, // 값 설명하기 위해 튀어나오는 점 크기
                     tickPadding: 5, // tick padding
                     tickRotation: 0, // tick 기울기
-                    legend: '시간', // left 글씨
+                    legend: '', // left 글씨
                     legendPosition: 'middle', // 글씨 위치
                     legendOffset: -60, // 글씨와 chart간 간격
                 }}

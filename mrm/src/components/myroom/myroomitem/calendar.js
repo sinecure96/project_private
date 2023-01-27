@@ -14,7 +14,7 @@ class CalendarBox extends React.Component {
           backgroundColor: "#FFFFFF",
           boxShadow: "5px 5px 8px rgba(0, 0, 0, 0.35)"
         }}>
-        <CalendarModal/>
+        <CalendarModal />
       </Box>
     );
   }

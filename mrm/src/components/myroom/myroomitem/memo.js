@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/system';
+import { TextField } from '@mui/material';
 
 class Memo extends React.Component {
   render() {
@@ -16,6 +17,16 @@ class Memo extends React.Component {
           paddingY: "20px"
         }}>
         <h2>MEMO</h2>
+        <hr></hr>
+        <TextField
+          id="standard-multiline-static"
+          multiline
+          rows={8}
+          fullWidth
+          placeholder =" 메모 추가"
+          variant="standard"
+          sx={{margin:'3px'}}
+        />
       </Box>
     );
   }

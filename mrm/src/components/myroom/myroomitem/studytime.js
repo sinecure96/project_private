@@ -16,8 +16,9 @@ class StudyTime extends React.Component {
           paddingX: "20px",
           paddingY: "20px"
         }}>
-        <StudyTimeChart/>
+        
         <h3>총 공부 20시간</h3>
+        <StudyTimeChart/>
       </Box>
     );
   }

@@ -13,8 +13,8 @@ export default function CalendarModal() {
   const handleClose = () => setOpen(false);
 
   return (
-  <div>
-    <Button onClick={handleOpen}>{<CalendarApp/>} </Button>
+  <div style={{ width: '250px', height: '220px', margin: '0 auto' }}>
+    <Button onClick={handleOpen}>달력 </Button>
     <Modal
       open={open}
       onClose={handleClose}
